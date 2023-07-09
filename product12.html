@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>APM Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="images/powerbanks.jfif" width="100%" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Shop / Powerbank</h6>
+                <h4>MI Powerbank</h4>
+                <h2>₹1,000</h2>
+                <form action="manage_cart.php" method="POST">
+                    <input  type='number' id='Quantity' value='1' min='1' max='10' name="Quantity" >
+                    <input type="hidden" name="Item_Name" id="Item_name" value="MI Powerbank">
+                    <input type="hidden" name="Price" value="1000">
+                    <input type="hidden" name="Image" value="images/powerbanks.jfif">
+                    <button type="submit" name="Add_to_cart" class="normal">Add to Cart</button>
+                </form>
+                <h4>Gadget Details</h4>
+                <span>MI power banks are portable external batteries designed to charge mobile devices on-the-go. They come in various sizes and capacities, ranging from 5000mAh to 30000mAh, and feature a sleek and compact design that fits easily in a pocket or bag. MI power banks are compatible with a wide range of devices, including smartphones, tablets, and other USB-powered devices. They come with fast charging technology and multiple charging ports, allowing users to charge multiple devices simultaneously. MI power banks also offer safety features such as overcharging protection, short circuit protection, and overvoltage protection, ensuring that devices are charged safely and efficiently. They come with LED indicators that show the remaining battery life and can be recharged quickly using a USB cable. MI power banks are popular among travelers, hikers, and anyone who needs to charge their devices while on-the-go.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='product8.html';">
+                <img src="images/boatearbuds.jfif" alt="">
+                <div class="des">
+                    <span>BOAT</span>
+                    <h5>Boat Earbuds</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹2,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product10.html';">
+                <img src="images/vivophone.jfif" alt="">
+                <div class="des">
+                    <span>VIVO</span>
+                    <h5>Vivo Phone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹14,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product13.html';">
+                <img src="images/magsafe.jfif" alt="">
+                <div class="des">
+                    <span>APPLE</span>
+                    <h5>Apple Magsafe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹6,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product16.html';">
+                <img src="images/boatbluetooth.png" alt="">
+                <div class="des">
+                    <span>BOAT</span>
+                    <h5>Boat Bluetooth</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹799</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </body>
+
+     
+</html>

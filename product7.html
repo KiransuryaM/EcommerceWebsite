@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>APM Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="images/oneplusphone.jfif" width="100%" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Shop / Mobile Phone</h6>
+                <h4>One Plus</h4>
+                <h2>₹30,000</h2>
+                <form action="manage_cart.php" method="POST">
+                    <input  type='number' id='Quantity' value='1' min='1' max='10' name="Quantity" >
+                    <input type="hidden" name="Item_Name" id="Item_name" value="One Plus">
+                    <input type="hidden" name="Price" value="30000">
+                    <input type="hidden" name="Image" value="images/oneplusphone.jfif">
+                    <button type="submit" name="Add_to_cart" class="normal">Add to Cart</button>
+                </form>
+                <h4>Gadget Details</h4>
+                <span>OnePlus is a brand of smartphones known for their premium features and affordable pricing. The company offers a range of smartphones with high-quality displays, powerful hardware, and advanced camera systems. Many OnePlus phones come with features such as fast charging, large amounts of RAM and storage, and the latest connectivity options, including 5G. OnePlus phones run on the OxygenOS operating system, which is based on Android and offers a range of customization options. The brand is known for its sleek designs, with many models featuring glass backs and aluminum frames. OnePlus phones are popular among consumers who want a premium smartphone without the premium price tag. They offer a great balance between performance, features, and value, making them a popular choice for both personal and professional use.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <div class="pro-container">
+        <div class="pro"onclick="window.location.href='product3.html';">
+                <img src="images/samsungtab.jfif" alt="">
+                <div class="des">
+                    <span>SAMSUNG</span>
+                    <h5>Samsung Tab</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹12,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product5.html';">
+                <img src="images/skullcandyheadphone.jfif" alt="">
+                <div class="des">
+                    <span>SKULL CANDY</span>
+                    <h5>Headphone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹7,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product10.html';">
+                <img src="images/vivophone.jfif" alt="">
+                <div class="des">
+                    <span>VIVO</span>
+                    <h5>Vivo Phone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹14,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product14.html';">
+                <img src="images/airpods.jfif" alt="">
+                <div class="des">
+                    <span>APPLE</span>
+                    <h5>Apple Airpods</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹20,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </body>
+
+     
+</html>

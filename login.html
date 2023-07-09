@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Shop Now</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a class="active" href="login.html">Login</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>  
+                </ul>
+            </div>
+        </section>
+        <form action="signup.html" method="post">
+            <h3 style="text-align: center; padding: 20px;">Are you a new user? <button type="submit">Sign Up</button></h3>
+        </form>
+        <form action="login.php" method="post">
+            <div class="container">
+              <div id="header"><h1 style="text-align: center;">Login</h1>
+              </div>
+              <hr>
+          
+              <label for="email"><b>Email ID : </b></label>
+              <input type="email" placeholder="Enter Email ID" name="email" required><br>
+          
+              <label for="psw"><b>Password : </b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <div class="clearfix">
+                <button type="reset" class="resetbtn">Reset</button>
+                <button type="submit" class="signupbtn">Login</button>
+              </div>
+            </div>
+          </form>
+          <section id="foot1">
+            <footer class="section-p1">
+                <div class="col">
+                    <img src="images/logo.png" class="logo" alt="">
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong> Bengaluru</p>
+                    <p><strong>Phone:</strong> 100</p>
+                    <div class="follow">
+                        <h4>Follow Us</h4>
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

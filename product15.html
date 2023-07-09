@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>APM Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="images/pixel.jfif" width="100%" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Shop / Mobile Phone</h6>
+                <h4>Google Pixel</h4>
+                <h2>₹85,000</h2>
+                <form action="manage_cart.php" method="POST">
+                    <input  type='number' id='Quantity' value='1' min='1' max='10' name="Quantity" >
+                    <input type="hidden" name="Item_Name" id="Item_name" value="Google Pixel">
+                    <input type="hidden" name="Price" value="85000">
+                    <input type="hidden" name="Image" value="images/pixel.jfif">
+                    <button type="submit" name="Add_to_cart" class="normal">Add to Cart</button>
+                </form>
+                <h4>Gadget Details</h4>
+                <span>Google Pixel is a line of smartphones designed and developed by Google. These phones are known for their clean and minimalist design, powerful hardware, and exceptional camera capabilities. The latest models in the Pixel lineup include the Pixel 6 and Pixel 6 Pro, both of which feature large, high-quality displays and custom-designed processors for smooth performance. Google Pixel phones run on the Android operating system, with a user interface that is optimized for the Pixel's unique features. The camera system on the Pixel is particularly noteworthy, with advanced features such as Night Sight, which allows users to take clear and detailed photos in low-light conditions. Other features include Google Assistant, which provides voice-activated access to a wide range of services and apps, and Pixel Stand, a wireless charging stand that turns the Pixel into a smart display. Google Pixel phones are popular among users who want a high-quality smartphone with a pure Android experience and exceptional camera capabilities.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='product4.html';">
+                <img src="images/samsunggalaxys22ultra.jfif" alt="">
+                <div class="des">
+                    <span>SAMSUNG</span>
+                    <h5>Samsung Galaxy S22 Ultra</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹98,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product7.html';">
+                <img src="images/oneplusphone.jfif" alt="">
+                <div class="des">
+                    <span>ONEPLUS</span>
+                    <h5>OnePlus Phone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹30,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product9.html';">
+                <img src="images/delllaptop.jfif" alt="">
+                <div class="des">
+                    <span>DELL</span>
+                    <h5>Dell Laptop</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹55,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product13.html';">
+                <img src="images/magsafe.jfif" alt="">
+                <div class="des">
+                    <span>APPLE</span>
+                    <h5>Apple Magsafe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹6,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </body>
+
+     
+</html>

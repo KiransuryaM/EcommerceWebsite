@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>APM Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="images/skullcandyheadphone.jfif" width="100%" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Shop / Headphone</h6>
+                <h4>Skull Candy</h4>
+                <h2>₹7,000</h2>
+                <form action="manage_cart.php" method="POST">
+                    <input  type='number' id='Quantity' value='1' min='1' max='10' name="Quantity" >
+                    <input type="hidden" name="Item_Name" id="Item_name" value="Skull Candy">
+                    <input type="hidden" name="Price" value="7000">
+                    <input type="hidden" name="Image" value="images/skullcandyheadphone.jfif">
+                    <button type="submit" name="Add_to_cart" class="normal">Add to Cart</button>
+                </form>
+                <h4>Gadget Details</h4>
+                <span>Skullcandy is a brand of headphones known for its unique designs and high-quality sound. The company offers a wide range of headphones, including wired and wireless options, earbuds, and over-ear headphones. Skullcandy headphones are designed for music lovers and audiophiles who want to enjoy their favorite tunes with crystal-clear sound quality and deep bass. The brand is also popular among gamers, as their headphones are designed to enhance the gaming experience. Many of Skullcandy's headphones come with features such as noise cancellation, built-in microphones for hands-free calling, and customizable sound profiles. The brand is known for its affordable pricing, making it a great option for anyone looking for high-quality headphones without breaking the bank.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='product8.html';">
+                <img src="images/boatearbuds.jfif" alt="">
+                <div class="des">
+                    <span>BOAT</span>
+                    <h5>Boat Earbuds</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹2,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product14.html';">
+                <img src="images/airpods.jfif" alt="">
+                <div class="des">
+                    <span>APPLE</span>
+                    <h5>Apple Airpods</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹20,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product16.html';">
+                <img src="images/boatbluetooth.png" alt="">
+                <div class="des">
+                    <span>BOAT</span>
+                    <h5>Boat Bluetooth</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹799</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro"onclick="window.location.href='product3.html';">
+                <img src="images/samsungtab.jfif" alt="">
+                <div class="des">
+                    <span>SAMSUNG</span>
+                    <h5>Samsung Tab</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹12,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </body>
+
+     
+</html>

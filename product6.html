@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>APM Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="images/lenovolaptop.jfif" width="100%" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Shop / Laptop</h6>
+                <h4>Lenovo Laptop</h4>
+                <h2>₹75,000</h2>
+                <form action="manage_cart.php" method="POST">
+                    <input  type='number' id='Quantity' value='1' min='1' max='10' name="Quantity" >
+                    <input type="hidden" name="Item_Name" id="Item_name" value="Lenovo Laptop">
+                    <input type="hidden" name="Price" value="75000">
+                    <input type="hidden" name="Image" value="images/lenovolaptop.jfif">
+                    <button type="submit" name="Add_to_cart" class="normal">Add to Cart</button>
+                </form>
+                <h4>Gadget Details</h4>
+                <span>Lenovo is a brand of laptops known for their performance, durability, and reliability. The company offers a wide range of laptops, including ultrabooks, gaming laptops, and 2-in-1 laptops that can be used as both a laptop and a tablet. Lenovo laptops are known for their sleek designs, high-quality displays, and powerful hardware. Many models come with features such as fast processors, dedicated graphics cards, long battery life, and large amounts of RAM and storage. The brand is also known for its keyboards, which are comfortable to type on and feature backlit keys for use in low-light environments. Lenovo laptops run on Microsoft Windows operating systems and offer a range of connectivity options, including Wi-Fi, Bluetooth, and USB ports. They are popular among both consumers and professionals for their reliability and versatility, making them a great choice for anyone looking for a high-quality laptop for work or personal use.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='product9.html';">
+                <img src="images/delllaptop.jfif" alt="">
+                <div class="des">
+                    <span>DELL</span>
+                    <h5>Dell Laptop</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹55,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product7.html';">
+                <img src="images/oneplusphone.jfif" alt="">
+                <div class="des">
+                    <span>ONEPLUS</span>
+                    <h5>OnePlus Phone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹30,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product17.html';">
+                <img src="images/appleiphone.jpg" alt="">
+                <div class="des">
+                    <span>APPLE</span>
+                    <h5>Apple Iphone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹70,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product10.html';">
+                <img src="images/vivophone.jfif" alt="">
+                <div class="des">
+                    <span>VIVO</span>
+                    <h5>Vivo Phone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹14,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </body>
+
+     
+</html>

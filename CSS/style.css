@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&display=swap');
+*{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: 'League Spartan', sans-serif;
+}
+.part3 h1{
+      margin-top: 80px;
+}
+.navbar{
+           height: 80px;
+           background-color:#E3E6F3;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           position: sticky;
+           top:0;
+}
+.head{
+         height: 300px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+}
+.first{
+         background: url('../Images/Banner.jpg');
+}
+.head h1{
+           color: white;
+           margin-bottom: 20px;
+           margin-top: 20px;
+}
+.Image{
+         width: 130px;
+         height: 90px;
+         margin-left: 20px;
+}
+#links a{
+          text-decoration: none;   
+          color: #1a1a1a;
+          font-size: 20px;
+          font-weight:900;
+}
+#links li{
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 40px;
+
+}
+.boxes{
+         display: flex;
+         margin-top: 20px;
+}
+.boxes .box1{
+       width:170px;
+       height:70px;
+       border-radius: 7px;
+       margin-right: 10px;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+}
+.boxes .box1 p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.boxes .box2 h2{
+    font-size: 20px;
+    margin-right: 14px;
+}
+.boxes .box1 .fa-apple{
+       font-size: 30px;
+       margin-right: 10px;
+       margin-left: 5px;
+       margin-top: 10px;
+}
+.fa-google-pay:hover{
+      color:#f0932b;
+}
+.fa-cc-amex:hover{
+     color:#22a6b3;
+}
+.fa-cc-visa:hover{
+       color: #182C61;
+}
+.fa-cc-mastercard:hover{
+      color:#ED4C67;
+}
+.boxes .box1 h2{
+    font-size: larger;
+    margin-left: 35px;
+}
+.boxes .box2 .fa-google-play{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.boxes .box2{
+    width:170px;
+    height:70px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.payment{
+           display: flex;
+           margin-top: 20px;
+}
+.pay{
+        font-size: 20px;
+        margin-top: 20px;
+}
+.play{
+        border:3px solid #55E6C1;
+
+}
+.play p{
+         margin-top: 8px; 
+}
+.line:after{
+       content: ' ';
+       display: block;
+       background-color:transparent;
+       height: 4px;
+       width:0%;
+       transition: width 0.5s ease-in;
+       margin: auto;
+}
+.line:hover:after{
+      width: 100%;
+      background-color:#00d2d3;
+}
+.fa-bag-shopping{
+         font-size: 20px;
+}
+.tabs{
+        margin-right: 200px;
+}
+.footer2 .part4{
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+      margin-top: 50px;
+      
+}
+.part4 .payment{
+      display: flex;
+}
+.part4 .payment i{
+         font-size: 50px;
+         margin-right: 20px;
+}
+.newstext{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       width:50%;
+       height:200px;
+       float: left;
+       background: url('../Images/News.jpg');
+}
+.newstext .Sign{
+         color:white;
+}
+button{
+         width:90px;
+         height:50px;
+         border-radius: 5px;
+         font-weight: 700;
+         font-size:20px;
+         color: #E3E6F3;
+         background-color: #218c74;
+         margin-left: 5px;
+         padding: 10px;
+}
+button:hover{
+       color:#ffffff;
+}
+#INPUT{
+          width:400px;
+          height:50px;
+          border-radius: 5px;
+          border:0;
+          outline:none;
+          font-size: 20px;
+}
+#INPUT::placeholder{
+     font-size:20px;
+     font-weight: bold;
+     text-align: center;
+}
+
+.footer2 .part3{
+       width:30%;
+}
+.newschat{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height:200px;
+      width:50%;
+      float: right;
+      background: url('../Images/News.jpg');
+}
+p{
+     margin-top: 10px;
+     font-size: larger;
+}
+.sec{
+       color:gray;
+}
+span{
+       color:#fa8231;
+       font-weight:bold;
+}
+.footer2{
+    width:50%;
+    height:400px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.social{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+}
+.social i{
+              margin-right: 10px;
+              font-size: 20px;
+}
+.part4 .ins{
+            margin-top: 100px;
+}
+.social a{
+      color:#1a1a1a;
+}
+.social .fa-instagram:hover{
+      color:#FC427B;
+}
+.social .fa-youtube:hover{
+      color:#eb2f06;
+}
+.social .fa-pinterest:hover{
+    color:#c0392b;
+}
+.social .fa-twitter:hover{
+    color:#2d98da;
+}
+.social .fa-facebook:hover{
+    color:#3B3B98;
+}
+.footer1{
+           width:50%;
+           height:400px;
+           float: left;
+           display: flex;
+           flex-direction: row;
+}
+.footer1 .part1{
+        width:70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:normal;
+        justify-content: center;
+}
+.footer1 .part1 .foot{
+      margin-left: 25px;
+      margin-top: 10px;
+}
+.footer1 .part1 h1{
+     margin-top: 10px;
+     font-size: 25px;
+}
+.footer1 .part2{
+    width:30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 43px;
+}
+.footer1 .part2 p{
+      font-size: 20px;
+      font-weight: 500;
+}
+.footer2 .part3 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer1 .part2 h1{
+      font-size: 25px;
+      margin-bottom: 10px;
+}
+.footer2 .part3 h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.footer1 img{
+    width: 130px;
+    height: 90px;
+}
+.footer2 .part3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.map{
+      display: flex;
+      width:100%;
+      height:500px;
+      flex-direction: row;
+}
+.details{
+           display: flex;
+           width:50vw;
+           flex-direction: column;
+           margin-left: 50px;
+           margin-top: 50px;
+}
+.details i{
+           margin-right: 10px;
+}
+.details h1{
+    margin-top: 20px;
+}
+.details h3{
+      margin-top: 20px;
+}
+.details h2{
+    margin-top: 20px;
+}
+.details p{
+      margin-top: 25px;
+      font-weight: 500;
+}
+.google{
+    width:50vw;
+    display: flex;
+}
+.google iframe{
+        margin-left: 20px;
+        margin-top: 50px;
+}
+.message{
+           display: flex;
+           height:650px;
+           width:95%;
+           border: 1px solid gray;
+           margin-top: 10px;
+           margin-bottom: 40px;
+           margin-left: 40px;
+           align-items: center;
+}
+.message .form{
+     display: flex;
+     height:100%;
+     flex-direction: column;
+     width: 60%;
+     margin-left: 30px;
+}
+.form p{
+     margin-top: 30px;
+}
+.form h2{
+      margin-bottom: 40px;
+      margin-top: 20px;
+}
+.form .COMMENT{
+      height:150px;
+}
+.form input{
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 30px;
+      outline: none;
+}
+
+.members .people{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+}
+.members .peopleinfo{
+      display: flex;
+      flex-direction: column;
+}
+.people img{
+      margin-right:20px;
+      width:70px;
+      height:70px;
+}
+.people2{
+      margin-left: 30px;
+}
+.people3{
+    margin-left: 30px;
+}
+.message .members{
+      width:40%;
+      display: flex;
+      height:100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+@media (max-width:480px){
+    #links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    #links li{
+    
+            margin-left: 40px;
+    }
+    .Image{
+             position: absolute;
+             margin-left: 5px;
+             top: 0px;
+   }
+    .navbar{
+             height:150px;
+             width:100vw;
+    }
+    .footer1 {
+           flex-direction:row ;
+           width: 100vw;
+    }
+    .footer2 .part3{
+           margin-left: 150px;
+           
+    }
+    .footer2 {
+        flex-direction:column;
+        width:100vw;
+ }
+ .newstext{
+    width:100%; 
+ }
+ .newschat{
+      flex-wrap: wrap;
+      width:100%;
+ }
+  .details{
+            margin-top: 10px;
+            font-size: 14px;
+            margin-left: 10px;
+  }
+   iframe{
+        width:170px;
+        height:400px;
+  }
+  .message{
+       width:100vw;
+  }
+   .members{
+       margin-left: 70px;
+   }
+}

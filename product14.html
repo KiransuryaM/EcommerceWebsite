@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>APM Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="images/airpods.jfif" width="100%" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Shop / Airpods</h6>
+                <h4>Apple Airpods</h4>
+                <h2>₹20,000</h2>
+                <form action="manage_cart.php" method="POST">
+                    <input  type='number' id='Quantity' value='1' min='1' max='10' name="Quantity" >
+                    <input type="hidden" name="Item_Name" id="Item_name" value="Apple AirPods">
+                    <input type="hidden" name="Price" value="20000">
+                    <input type="hidden" name="Image" value="images/airpods.jfif">
+                    <button type="submit" name="Add_to_cart" class="normal">Add to Cart</button>
+                </form>
+                <h4>Gadget Details</h4>
+                <span>Apple AirPods are wireless earbuds designed for use with Apple products. They are known for their sleek design, ease-of-use, and high-quality sound. AirPods connect to Apple devices using Bluetooth and offer features such as automatic pairing, touch controls, and voice-activated access to Siri. They come with a charging case that provides up to 24 hours of battery life and can be charged using a Lightning cable. AirPods are available in two different models: AirPods and AirPods Pro. AirPods Pro offer features such as noise cancellation and a customizable fit, while standard AirPods offer a more basic design with simple touch controls. Both models offer clear and crisp sound quality and a seamless connection to Apple devices. AirPods are popular among Apple users for their convenience and ease-of-use, making them a popular choice for anyone who wants high-quality wireless earbuds for personal or professional use.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <div class="pro-container">
+        <div class="pro"onclick="window.location.href='product3.html';">
+                <img src="images/samsungtab.jfif" alt="">
+                <div class="des">
+                    <span>SAMSUNG</span>
+                    <h5>Samsung Tab</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹12,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product5.html';">
+                <img src="images/skullcandyheadphone.jfif" alt="">
+                <div class="des">
+                    <span>SKULL CANDY</span>
+                    <h5>Headphone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹7,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product8.html';">
+                <img src="images/boatearbuds.jfif" alt="">
+                <div class="des">
+                    <span>BOAT</span>
+                    <h5>Boat Earbuds</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹2,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product16.html';">
+                <img src="images/boatbluetooth.png" alt="">
+                <div class="des">
+                    <span>BOAT</span>
+                    <h5>Boat Bluetooth</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹799</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </body>
+
+     
+</html>

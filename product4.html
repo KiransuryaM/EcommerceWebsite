@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>APM Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>                    
+                    <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </i></i></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="images/samsunggalaxys22ultra.jfif" width="100%" alt="">
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Shop / Mobile Phone</h6>
+                <h4>Samsung Galaxy S22 Ultra</h4>
+                <h2>₹98,000</h2>
+                <form action="manage_cart.php" method="POST">
+                    <input  type='number' id='Quantity' value='1' min='1' max='10' name="Quantity" >
+                    <input type="hidden" name="Item_Name" id="Item_name" value="Samsung Galaxy S22 Ultra">
+                    <input type="hidden" name="Price" value="98000">
+                    <input type="hidden" name="Image" value="images/samsunggalaxys22ultra.jfif">
+                    <button type="submit" name="Add_to_cart" class="normal">Add to Cart</button>
+                </form>
+                <h4>Gadget Details</h4>
+                <span>The Samsung Galaxy S22 Ultra is a high-end smartphone manufactured by Samsung Electronics. It is part of the Galaxy S series and was released in early 2022. The S22 Ultra features a large 6.8-inch Dynamic AMOLED display with a resolution of 1440 x 3200 pixels and a high refresh rate of 120Hz. The phone is powered by Samsung's Exynos 2200 chipset or Qualcomm's Snapdragon 8 Gen 1 processor, depending on the region. It also comes with 12GB or 16GB of RAM and 256GB or 512GB of internal storage. The S22 Ultra has a quad-camera setup on the rear, including a 108MP primary camera, a 10MP periscope telephoto lens with 10x optical zoom, a 12MP ultra-wide lens, and a 3D ToF sensor. The front camera is a 40MP sensor for high-quality selfies and video calls. The phone also supports 5G connectivity, Wi-Fi 6, Bluetooth 5.2, and NFC, and has a 5000mAh battery with fast charging and wireless charging capabilities. The S22 Ultra runs on Samsung's One UI 4.0 on top of Android 12. It is known for its premium design, advanced camera features, and powerful hardware, making it a popular choice among smartphone enthusiasts and professionals.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='product7.html';">
+                <img src="images/oneplusphone.jfif" alt="">
+                <div class="des">
+                    <span>ONEPLUS</span>
+                    <h5>OnePlus Phone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹30,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product15.html';">
+                <img src="images/pixel.jfif" alt="">
+                <div class="des">
+                    <span>GOOGLE</span>
+                    <h5>Google Pixel</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹85,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product12.html';">
+                <img src="images/powerbanks.jfif" alt="">
+                <div class="des">
+                    <span>REDMI</span>
+                    <h5>MI Powerbank</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹1,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='product8.html';">
+                <img src="images/boatearbuds.jfif" alt="">
+                <div class="des">
+                    <span>BOAT</span>
+                    <h5>Boat Earbuds</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>₹2,000</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </body>
+
+     
+</html>
